@@ -16,29 +16,25 @@ This driver works in conjunction with a running and properly configured [**Viriu
 - Multi-node support
 - Attach, mount, detach, unmount workflows via CSI
 - Kubernetes native PersistentVolume (PV) lifecycle integration
-
-### ⚙️ Planned Features
-
 - Volume resizing support
 - Snapshot creation
 - Volume cloning
 
----
-
 ## ⚠️ Requirements
 
-- A running instance of **Viriumd**, configured and reachable by the driver
+- A running instance of **Viriumd**, configured and reachable by the driver (please check [here](https://github.com/virer/viriumd))
 - iSCSI initiator configured on all cluster nodes
 - Kubernetes v1.20+ (CSI-compatible)
 
 ---
 
-## 🧪 Project Status
+## 🧪 Project Status and feature status
 
 **Status:** `Beta`
 
-- ✅ Volume creation and deletion are functional on multi-node Kubernetes clusters
-- 🚧 Feature expansion (resizing, snapshots, cloning) in active development
+- 🚧 TLS communication and configuration option with Viriumd API
+- 🚧 iSCSI discovery authentication planed
+- 🚧 iSCSI session authentication planed
 
 ---
 
