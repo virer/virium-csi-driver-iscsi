@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-This repository contains the **Virim CSI driver** — a Kubernetes CSI-compatible plugin that extends the functionality of the [official iSCSI CSI driver](https://github.com/kubernetes-csi/csi-driver-iscsi) to support **dynamic provisioning**.
+This repository contains the **Virim CSI driver (Controller Part)** — a Kubernetes CSI-compatible plugin that extends the functionality of the [official iSCSI CSI driver](https://github.com/kubernetes-csi/csi-driver-iscsi) to support **dynamic provisioning**.
 
 **CSI plugin name**: `virium.csi.virer.net`
 
