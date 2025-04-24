@@ -54,7 +54,7 @@ This driver works in conjunction with a running and properly configured [**Viriu
 
 This project is open for testing, feedback, and contributions
 
-# Installation:
+## Installation:
 
 For installation please use helm charts
 

@@ -15,9 +15,7 @@
 FROM registry.k8s.io/build-image/debian-base:bookworm-v1.0.4
 
 RUN apt update && apt upgrade -y && apt-mark unhold libcap2
-RUN clean-install util-linux e2fsprogs mount ca-certificates udev xfsprogs btrfs-progs open-iscsi
 
-CMD service iscsid start
-COPY ./bin/virium-iscsiplugin /virium-iscsiplugin
+COPY ./bin/virium-controller  /virium-controller
 
-ENTRYPOINT ["/virium-iscsiplugin"]
+ENTRYPOINT ["/virium-controller"]
