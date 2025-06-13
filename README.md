@@ -59,11 +59,11 @@ Create a values.yaml
 virium:
   controller:
     image:
-      repository: docker.io/scaps/virium-csi-driver-iscsi
+      repository: docker.io/scaps/virium-controller
       tag: v0.2.3.4
   node:
     image:
-      repository: docker.io/scaps/virium-controller
+      repository: docker.io/scaps/virium-csi-driver-iscsi
       tag: v0.2.3.4
   nodeSelector:
     kubernetes.io/os: linux
